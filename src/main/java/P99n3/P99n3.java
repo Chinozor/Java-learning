@@ -3,8 +3,8 @@ class LevelCapacity {
     float watt;
 }
 public class P99n3 {
-    static void capacity(LevelCapacity n){
-        n.watt = 1300.0F;
+    static void capacity(LevelCapacity levelCapacity){
+        levelCapacity.watt = 1300.0F;
     }
     public static void main(String[] args) {
         LevelCapacity max = new LevelCapacity();

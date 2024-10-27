@@ -8,14 +8,20 @@ public class P98n2 {
         is.diametr = 122.0F;
         System.out.println("is diametr = " + is.diametr + " mm");
         System.out.println("su diametr = " + su.diametr + " mm");
+        System.out.println(su);
+        System.out.println(is);
         su = is;
         System.out.println("after changin ");
         System.out.println("is diametr = " + is.diametr + " mm");
         System.out.println("su diametr = " + su.diametr + " mm");
-        is.diametr = 270.0F;
+        System.out.println(su);
+        System.out.println(is);
+        su.diametr = 270.0F;
         System.out.println("after changin ");
         System.out.println("is diametr = " + is.diametr + " mm");
         System.out.println("su diametr = " + su.diametr + " mm");
+        System.out.println(su);
+        System.out.println(is);
     }
 }
 class Tank{
