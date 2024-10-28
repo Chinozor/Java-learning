@@ -7,7 +7,7 @@ public class Main {
         System.out.println(Integer.toBinaryString(i));
         while (i != 1){
             int i1 = i >> 1;
-            System.out.println(i1);
+            System.out.println(Integer.toBinaryString(i1));
             i = i1;
         }
     }
