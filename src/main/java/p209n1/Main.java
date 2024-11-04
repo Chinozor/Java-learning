@@ -4,10 +4,13 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(Dogs.name);
         System.out.println(Dogs.voice);
-        if (Dogs.name == null)
-            new Cats();
+        Cats lol = null;
+        if (Dogs.name == null) {
+            lol = new Cats();
+        }
         System.out.println(Dogs.name);
         System.out.println(Dogs.voice);
+        System.out.println(lol);
     }
 }
 class Dogs{
@@ -19,9 +22,12 @@ class Dogs{
     }
 }
 class Cats{
-    String name;
-    String voice;
+    int i;
+    String color;
     Cats() {
         Dogs bubble = new Dogs();
+    }
+    public String toString(){
+        return  "Количество кошек " + i;
     }
 }
