@@ -1,7 +1,7 @@
 package SlotMachine;
 
+import java.util.Random;
 import java.util.Scanner;
-
 public class User {
     static String[] userName;
     static String[] password;
