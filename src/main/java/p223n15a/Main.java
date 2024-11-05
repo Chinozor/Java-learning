@@ -7,6 +7,5 @@ public class Main {
     }
     public static void main(String[] args) {
         Car main = new Car();
-        main.removeEngine();
     }
 }
