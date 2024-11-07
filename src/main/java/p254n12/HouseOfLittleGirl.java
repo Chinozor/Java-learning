@@ -21,7 +21,7 @@ public class HouseOfLittleGirl {
             zooInHome(m);
     }
     public static void main(String[] args) {
-        Rodent[] zoo = new Rodent[1];
+        Rodent[] zoo = new Rodent[10];
         for (int i = 0; i < zoo.length; i++) {
             zoo[i] = randomRodent();
         }
