@@ -1,5 +1,6 @@
 package p247n6;
 
+
 public class Music3 {
     public static void tune(Instrument instrument){
         instrument.play(Note.B_FLAT);
@@ -15,7 +16,7 @@ public class Music3 {
                 new Percussion(),
                 new Stringed(),
                 new Brass(),
-                new Woodwind()
+                new Woodwind(),
         };
         tuneALL(orchestra);
         for(Instrument i: orchestra)
