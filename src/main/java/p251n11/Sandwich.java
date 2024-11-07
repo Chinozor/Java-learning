@@ -38,8 +38,9 @@ class PortableLunch extends Lunch{
 public class Sandwich extends PortableLunch{
     private Bread b = new Bread();
     private Cheese cheese = new Cheese();
-    private Lettuce lettuce = new Lettuce();
     private Pickle pickle = new Pickle();
+    private Lettuce lettuce = new Lettuce();
+
 
     public static void main(String[] args) {
         new Sandwich();
