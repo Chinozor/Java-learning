@@ -36,3 +36,4 @@ public class PolyConstructors {
         new RectangleGlyph(7);
     }
 }
+//Почему так работает?
