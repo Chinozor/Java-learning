@@ -12,19 +12,11 @@ public class HouseOfLittleGirl {
             case 2: return new Squirrel();
         }
     }
-    public static void zooInHome(Rodent rodent){
-        rodent.eat();
-        rodent.voice();
-    }
-    public static void allTogether(Rodent[] r){
-        for(Rodent m: r)
-            zooInHome(m);
-    }
+
     public static void main(String[] args) {
         Rodent[] zoo = new Rodent[10];
         for (int i = 0; i < zoo.length; i++) {
             zoo[i] = randomRodent();
         }
-        allTogether(zoo);
     }
 }

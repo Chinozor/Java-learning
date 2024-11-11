@@ -4,14 +4,7 @@ public class Rodent {
     Rodent() {
         System.out.println("Я грызун");
     }
-    void voice(){
-        System.out.println("Я не говорю, я грызун");
-    }
-    public String toString(){
-        return "Грызун";
-    }
-    void eat(){
-        System.out.println("Я могу есть");
-    }
+    private  Voice voice = new Voice("Я не говорю");
+    private Eat eat = new Eat("Я ем все");
 }
 
