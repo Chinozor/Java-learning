@@ -22,3 +22,4 @@ public class Adventure {
         w(h);
     }
 }
+//А зачем это вообще делать, если можно написать: h.swim(), h.fight() и тд.
