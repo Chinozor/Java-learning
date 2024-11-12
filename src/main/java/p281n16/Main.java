@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-    public static String Main(int i) {
+    public static String main(int i) {
         char[] chars = new char[i];
         Random random = new Random();
         for (int j = 0; j < chars.length; j++) {
@@ -15,7 +15,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(Main(10));
+        Scanner scanner = new Scanner(main(10));
         while (scanner.hasNext()) {
             System.out.println(scanner.next());
         }

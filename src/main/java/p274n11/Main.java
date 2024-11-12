@@ -1,7 +1,7 @@
 package p274n11;
 
 public class Main {
-    public String process(String s){
+    public static String process(String s){
         char[] c = s.toCharArray();
         char[] c1 = new char[c.length];
         for (int i = 0; i < c.length; i ++){
@@ -16,11 +16,11 @@ public class Main {
                 c1[i] = c[i - 1];
             }
         }
-        return new String(c1.toString());
+        return new String(c1); //была ошибка, попытался внутри () преобразовать в String, но String сам преобразует все
     }
     public static void main(String[] args) {
         Main main = new Main();
-        main.process("Егор");
+        System.out.println(process("Егор"));
     }
 }
 //ну вроде адаптировал)
