@@ -1,7 +1,7 @@
 package p274n11;
 
 public class Main {
-    public void stringArray(String s){
+    public String process(String s){
         char[] c = s.toCharArray();
         char[] c1 = new char[c.length];
         for (int i = 0; i < c.length; i ++){
@@ -16,11 +16,11 @@ public class Main {
                 c1[i] = c[i - 1];
             }
         }
-        System.out.println(c1);
+        return new String(c1.toString());
     }
     public static void main(String[] args) {
         Main main = new Main();
-        main.stringArray("Егор");
+        main.process("Егор");
     }
 }
-//что значит адаптировать его? Сделать попозже чут чут
+//ну вроде адаптировал)
