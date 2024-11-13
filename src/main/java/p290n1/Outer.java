@@ -1,9 +1,10 @@
 package p290n1;
 
 public class Outer {
+    String string;
     @Override
     public String toString() {
-        return "Внешний класс";
+        return string;
     }
     static class Inner{
         public Outer outer(){
