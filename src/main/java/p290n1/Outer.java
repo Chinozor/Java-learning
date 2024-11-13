@@ -1,18 +1,22 @@
 package p290n1;
 
 public class Outer {
-    String string;
-    @Override
-    public String toString() {
-        return string;
-    }
+    private static String string;
+
     static class Inner{
         public Outer outer(){
             return new Outer();
         }
+        Inner(String s){
+            string = s;
+        }
+        @Override
+        public String toString() {
+            return string;
+        }
     }
     public static void main(String[] args) {
-        Inner inner = new Inner();
-        System.out.println(inner.outer());
+        Inner inner = new Inner("MyName");
+        System.out.println(inner);
     }
 }
