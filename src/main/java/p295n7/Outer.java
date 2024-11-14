@@ -5,7 +5,8 @@ public class Outer {
     private void priv(){
         System.out.println("Outer i =" + i);
     }
-    class Inner{
+    public class Inner{
+        private int n = 0;
         void replace(){
             i ++;
             priv();
