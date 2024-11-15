@@ -17,7 +17,7 @@ public class Outer {
         Outer outer = new Outer();
         Inter inter = outer.inter();
         inter.qwe();
-        inter.rty();
+        //inter.rty();
     }
 }
 //Почему он не видит метод rty? А в номере 9 видит.
